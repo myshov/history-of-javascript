@@ -1,6 +1,6 @@
 (function(define) {
 
-    define(function (require, exports, module) {
+    define(function () {
         var helloInLang = {
             en: "Hello world!",
             es: "Hola mundo!",
@@ -14,8 +14,8 @@
         };
     });
 
-}( // Help Node out by setting up define.
+}(
     typeof module === 'object' && module.exports && typeof define !== 'function' ?
-    function (factory) { module.exports = factory(require, exports, module); } :
+    function (factory) { module.exports = factory(); } :
     define
 ));
