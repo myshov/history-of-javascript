@@ -1,7 +1,7 @@
 ﻿define(function() {
     var helloInLang = {
         en: "Hello world!",
-        es: "Hola mundo!",
+        es: "¡Hola mundo!",
         ru: "Привет мир!"
     };
 
