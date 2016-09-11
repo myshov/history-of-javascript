@@ -6,7 +6,7 @@ To run this example clone this repository and open `index.html` in your browser.
 
 ```bash
 $ git clone https://github.com/myshov/evolution_of_js_modularity.git
-$ cd 1_module_pattern_2003/
+$ cd evolution_of_js_modularity/1_module_pattern_2003/
 $ open index.html
 ```
 

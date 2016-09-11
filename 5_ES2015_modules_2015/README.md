@@ -8,10 +8,10 @@ To run this example clone this repository and open `index.html` in your browser.
 
 ```bash
 $ git clone https://github.com/myshov/evolution_of_js_modularity.git
-$ cd 5_ES2015_modules_2015/
+$ cd evolution_of_js_modularity/5_ES2015_modules_2015/
 $ open index.html
 ```
-If you want to mess around with this example, you need to run `npm i` and after changes with code execute `npm run build`.
+If you want to mess around with this example, you need to run `npm i` and after changing of code execute `npm run build`.
 
 ```bash
 $ npm i

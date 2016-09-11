@@ -8,7 +8,7 @@ To run this example clone this repository and execute `node hello.js`.
 
 ```bash
 $ git clone https://github.com/myshov/evolution_of_js_modularity.git
-$ cd 2_commonjs_2009/
+$ cd evolution_of_js_modularity/2_commonjs_2009/
 $ node hello.js
 ```
 

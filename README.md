@@ -4,7 +4,7 @@ Source code for the talk on JSib Meetup and the article.
 
 All code is fully functional.
 
-There are readme files in each directories. Check them out!
+There are readme files in each directory. Check them out!
 
 
 
