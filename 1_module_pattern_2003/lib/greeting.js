@@ -11,7 +11,7 @@
     };
 
     module.writeHello = function (lang) {
-        document.write(module.getHello("ru"))
+        document.write(module.getHello(lang))
     };
 
     return module;
