@@ -1,3 +1,3 @@
-var sayHello = require("./greeting").sayHello;
+var sayHello = require("./lib/greeting").sayHello;
 var phrase = sayHello("en");
 console.log(phrase);
