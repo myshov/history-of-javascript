@@ -1,5 +1,7 @@
 # CommonJS Modules (2009)
 
+Official site of CommonJS [here](http://www.commonjs.org/)
+
 ## Example
 
 To run this example clone this repository and execute `node hello.js`.
