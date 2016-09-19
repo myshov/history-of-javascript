@@ -4,7 +4,7 @@
 
 Now we have a lot of specs/patterns/API: CommonJS, AMD, UMD, ES2015 Modules. Their goal is to help organize code and solve the issue of pollution of the global scope. The developers are just starting to learn JS, often do not fully understand what is behind these acronyms, and often confuse by them.
 
-The purpose of this article is to dot the i's and cross the t's to restore the historical context of the emergence and development of these decisions.
+The purpose of this article is to dot the i's and cross the t's to restore the historical context of the emergence and development of these solutions.
 
 
 ## The contents
