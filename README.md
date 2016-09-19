@@ -224,7 +224,7 @@ To begin using the new standard in a world ruled by ES5, you can use transpilati
 
 # Instead of a conclusion
 
-As the author of require.js [said](http://jrburke.com/2016/03/17/requirejs-2.2-alameda-1.0-released/) "Thanks for your time and use of the libraries. The goal for them was to be useful, help inform the future". Now we can safely say that CommonJS and AMD has contributed to a modern modular system on way or another. Work for the support of new modularity systems in browsers and Node.JS [already underway](https://github.com/nodejs/node-eps/blob/master/002-es6-modules.md) and, ultimately ES2015 Modules will be the main modular system of JavaScript.
+As the author of require.js [said](http://jrburke.com/2016/03/17/requirejs-2.2-alameda-1.0-released/) "The goal for them [AMD loaders] was to be useful, help inform the future". Now we can safely say that CommonJS and AMD has contributed to a modern modular system one way or another. Work for the support of new modularity systems in browsers and Node.JS [already underway](https://github.com/nodejs/node-eps/blob/master/002-es6-modules.md) and, ultimately ES2015 Modules will be the main modular system of JavaScript.
 
 
 
