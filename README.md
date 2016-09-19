@@ -9,13 +9,13 @@ The purpose of this article is to dot the i's and cross the t's to restore the h
 
 ## The contents
 
-The contents
-Pattern "Module" (2003)
-CommonJS Modules (2009)
-AMD (2009)
-UMD (2011)
-ES2015 Modules (2015)
-Instead of a conclusion
+- The contents
+- Pattern "Module" (2003)
+- CommonJS Modules (2009)
+- AMD (2009)
+- UMD (2011)
+- ES2015 Modules (2015)
+- Instead of a conclusion
 
 
 
@@ -236,4 +236,4 @@ Also there are readme files in each directory. Check them out!
 All code under the MIT License (MIT) 2016
 Text of the article under CC-BY-NC
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Лицензия Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />Это произведение доступно по <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">лицензии Creative Commons «Attribution-NonCommercial» («Атрибуция — Некоммерческое использование») 4.0 Всемирная</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Лицензия Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />
