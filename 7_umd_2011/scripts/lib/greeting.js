@@ -2,9 +2,9 @@
 
     define(function () {
         var helloInLang = {
-            en: "Hello world!",
-            es: "¡Hola mundo!",
-            ru: "Привет мир!"
+            en: 'Hello world!',
+            es: '¡Hola mundo!',
+            ru: 'Привет мир!'
         };
 
         return {
