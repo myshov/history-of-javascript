@@ -1,5 +1,11 @@
 # License
 
+### Articles
+
+Every article in this repository available under CC-BY-NC 4.0 License
+
+### Code examples
+
 The MIT License (MIT)
 
 Copyright (c) 2016 Alexander Myshov
