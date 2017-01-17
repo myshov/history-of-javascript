@@ -6,7 +6,7 @@ modules.define('greeting', function(provide) {
             ru: 'Привет мир!'
         },
         sayHello: function (lang) {
-            return helloInLang[lang];
+            return this.helloInLang[lang];
         }
     });
 });
