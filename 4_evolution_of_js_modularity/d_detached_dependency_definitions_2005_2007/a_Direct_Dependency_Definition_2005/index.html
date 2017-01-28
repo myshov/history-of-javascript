@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Direct Dependency Definition (2005)</title>
+        <script type="text/javascript">
+            dojoConfig = {
+                baseUrl: '/scripts/',
+                modulePaths: {
+                    "app": "app"
+                }
+            };
+        </script>
+        <script type="text/javascript" src="scripts/vendors/dojo.min.js"></script>
+        <script type="text/javascript">
+            dojo.require("app.hello");
+
+            app.hello();
+        </script>
+    </head>
+    <body>
+    </body>
+</html>
