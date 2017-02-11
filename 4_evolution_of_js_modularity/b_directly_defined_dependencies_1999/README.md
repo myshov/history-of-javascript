@@ -1,4 +1,4 @@
-# Direct Dependency Definition (2005)
+# Direct Dependency Definition (1999)
 
 ## Example
 
@@ -12,5 +12,4 @@ $ python -m SimpleHTTPServer 3003
 
 ## Original authors
 
-Alex Russel (@slightlylate)
-Dylan Schiemann (@dylans)
+Erik Arvidsson (@arv)
