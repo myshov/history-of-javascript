@@ -1,0 +1,7 @@
+{
+    "files": {
+        "main.js": ["sayHello.js"],
+        "sayHello.js": ["helloInLang.js"],
+        "helloInLang.js": []
+    }
+}
