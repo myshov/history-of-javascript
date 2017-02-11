@@ -12,4 +12,4 @@ $ open index.html
 
 ## Original author
 
-Erik Arvidsson (@arv)
+Erik Arvidsson (@arv) (the earliest example usage)

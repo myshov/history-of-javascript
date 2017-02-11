@@ -1,0 +1,13 @@
+{
+  "name": "e_template_defined_dependencies_2006",
+  "version": "1.0.0",
+  "description": "Template Defined Dependencies Example",
+  "scripts": {
+    "build": "borschik -i dist/app.tmp.js -o dist/app.js -m no"
+  },
+  "author": "Alexander Myshov <simplex.light@gmail.com> (http://myshov.com)",
+  "license": "ISC",
+  "dependencies": {
+    "borschik": "^1.6.1"
+  }
+}
