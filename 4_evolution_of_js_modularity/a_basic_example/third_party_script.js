@@ -1,3 +1,3 @@
 function writeHello() {
-    document.write('The broken script');
+    document.write('The script is broken');
 }

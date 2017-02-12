@@ -3,5 +3,5 @@
  * because we use namespace pattern by using app object
  */
 function writeHello() {
-    document.write('The broken script');
+    document.write('The script is broken');
 }
