@@ -10,6 +10,6 @@ $ cd history_of_javascript/4_evolution_of_js_modularity/b_directly_defined_depen
 $ python -m SimpleHTTPServer 3003
 ```
 
-## Original authors
+## Original author
 
-Erik Arvidsson (@arv)
+Erik Arvidsson (@arv) (the earliest example usage)

@@ -1,4 +1,4 @@
-﻿dojo.provide("app.greeting");
+﻿dojo.provide('app.greeting');
 
 app.greeting.helloInLang = {
     en: 'Hello world!',

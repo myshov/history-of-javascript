@@ -1,4 +1,4 @@
-dojo.provide("app.hello");
+dojo.provide('app.hello');
 
 dojo.require('app.greeting');
 
