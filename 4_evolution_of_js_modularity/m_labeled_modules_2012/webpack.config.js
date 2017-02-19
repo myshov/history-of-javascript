@@ -8,7 +8,7 @@ module.exports = {
         filename: 'bundle.js',
         libraryTarget: 'umd'
     },
-	plugins: [
-		new webpack.dependencies.LabeledModulesPlugin()
-	]
+    plugins: [
+        new webpack.dependencies.LabeledModulesPlugin()
+    ]
 };
