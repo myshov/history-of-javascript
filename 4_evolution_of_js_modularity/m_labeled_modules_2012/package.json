@@ -1,0 +1,17 @@
+{
+  "name": "m_labeled_modules_2012",
+  "version": "1.0.0",
+  "description": "Labeled Modules Example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexander Myshov <simplex.light@gmail.com> (http://myshov.com)",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^1.13.0"
+  },
+  "scripts": {
+    "build": "./node_modules/.bin/webpack"
+  }
+}
