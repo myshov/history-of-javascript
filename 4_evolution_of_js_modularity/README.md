@@ -71,9 +71,9 @@ It is obvious that in the large projects this can cause a lot of headaches. More
 
 ### The Support for Large Codebases
 
-An another inconvenient moment of JavaScript for the building of large applications is the need to explicitly specify a plugged-in scripts using the <script> tag in the most common ES5 browser environments.
+An another inconvenient moment of JavaScript for the building of large applications is the need to explicitly specify a plugged-in scripts using the `script` tag in the most common ES5 browser environments.
 
-If you care about the fact that the source code of application should be maintainable, then you need to split it into independent parts. Because of this the amount of the files may be a really large. With a large number of files the manual control of the scripts (i.e. the placing scripts on the page via the script tag) becomes very tedious, because firstly you have to remember to put necessary scripts in the page and secondly preserve the proper order of the <script> tags so that all dependencies between files has been resolved.
+If you care about the fact that the source code of application should be maintainable, then you need to split it into independent parts. Because of this the amount of the files may be a really large. With a large number of files the manual control of the scripts (i.e. the placing scripts on the page via the script tag) becomes very tedious, because firstly you have to remember to put necessary scripts in the page and secondly preserve the proper order of the `script` tags so that all dependencies between files has been resolved.
 
 ## Directly Defined Dependencies (1999)
 
