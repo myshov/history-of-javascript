@@ -47,7 +47,7 @@ Before delve into the world of modularity let’s take a closer look at the prob
 
 From the moment of its appearance JavaScript has used the global object window as a storage for all variables defined without the `var` keyword. In 1995-1999 it was very convenient, because JavaScript code tended to solve small tasks that hadn't required a lot of lines of code. But when the codebase of applications had became large this feature of the language began to lead to nasty errors because of the name collisions. Let’s look at this example:
 
-```
+```JavaScript
 // file greeting.js
 var helloInLang = {
     en: 'Hello world!',
@@ -85,7 +85,7 @@ The gist of directly defined dependencies lied in the getting of the code of the
 
 Let's revise our example using Dojo 1.6:
 
-```
+```JavaScript
 // file greeting.js
 dojo.provide("app.greeting");
 
@@ -119,7 +119,7 @@ The first significant project that took advantage of this opportunity was a libr
 
 If we apply this idea to our example we get something like this:
 
-```
+```JavaScript
 // file app.js
 var app = {};
 
@@ -146,7 +146,7 @@ The Namespace gave some sort of order to the code organisation. But it was evide
 
 The pioneer in the solution of this problem is the Module pattern. Its main idea is encapsulating data and code with a closure and providing access to them through methods accessible from the outside. Here is a basic example of this type of pattern:
 
-```
+```JavaScript
 var greeting = (function () {
     var module = {};
 
@@ -184,7 +184,7 @@ If we try to generalize we can say, that this pattern defines dependencies via i
 
 Let’s transform our example using this style of dependency definition. For that we will use [borshik](https://github.com/borschik/borschik).
 
-```
+```JavaScript
 // file app.tmp.js
 
 /*borschik:include:../lib/main.js*/
@@ -219,7 +219,7 @@ An application that use this pattern must be either pre-built (this approach was
 
 Our example will be look like this, if we will rewrite it using this library:
 
-```
+```JavaScript
 // file helloInLang.js
 var helloInLang = {
     en: 'Hello world!',
@@ -254,7 +254,7 @@ The earliest using of this approach, that I managed to find, dates by 2007 in [M
 
 In the simplest case our example with using this pattern can be done like this (for this example I will use my own [experimental loader](https://github.com/myshov/eddloader) that use this pattern).
 
-```
+```JavaScript
 // file deps.json
 {
     "files": {
@@ -290,7 +290,7 @@ The developers at Yahoo, who worked on the new module system in YUI3, was solvin
 
 [Adam Moore](https://twitter.com/admo) (one of the developers of YUI3) suggested to use "Sandbox" for a solution to this problem. A simple implementation of modularity using this pattern may look like this:
 
-```
+```JavaScript
 // file sandbox.js
 function Sandbox(callback) {
     var modules = [];
@@ -343,7 +343,7 @@ Modules in Angular are implemented via the mechanism of Dependency Injection. By
 
 To illustrate this approach, let's rewrite our example using the first version of Angular (yes, bear in mind that this example is extremely synthetic):
 
-```
+```JavaScript
 // file greeting.js
 angular.module('greeter', [])
     .value('greeting', {
@@ -379,7 +379,7 @@ Work had begun to boil. The most attention from developers and researchers has b
 
 As an example of the CommonJS module let's adapt our module by this way:
 
-```
+```JavaScript
 // file greeting.js
 var helloInLang = {
     en: 'Hello world!',
@@ -401,7 +401,7 @@ console.log(phrase);
 
 Here we see that for implementation of modularity there are two new entities - `require` and `module` that provide the ability to load a module and to export its interface to the outer world. It is worth noting that neither require nor module are some sort of keywords of the language. In Node.JS we can use them due to the auxiliary function. This function wraps every module before sending it to the JavaScript engine:
 
-```
+```JavaScript
 (function (exports, require, module, __filename, __dirname) {
     // ...
     // Your code injects here!
@@ -413,7 +413,7 @@ The CommonJS specification defines only required minimum for the module interope
 
 Babel also extends `require` during the transpilation of ES2015 Modules (I will talk about this module system in the end of this article) with default export:
 
-```
+```JavaScript
 export default something;
 ```
 
@@ -421,7 +421,7 @@ Babel transforms such an export into CommonJS module, where default value is exp
 
  
 
-```
+```JavaScript
 export.default = something;
 ```
 
@@ -439,7 +439,7 @@ The basic idea, which James tried to clarify was the fact that loading of the mo
 
 If we will rewrite our example using AMD format we will get something like this:
 
-```
+```JavaScript
 // file lib/greeting.js
 define(function() {
     var helloInLang = {
@@ -482,7 +482,7 @@ Since its inception, the Q library worked in different environments: in the brow
 
 As an example let's refactor our module greeting.js for the simultaneous support of different environments CommonJS and AMD:
 
-```
+```JavaScript
 (function(define) {
     define(function () {
         var helloInLang = {
@@ -506,7 +506,7 @@ As an example let's refactor our module greeting.js for the simultaneous support
 
 In the heart of this implementation pattern lies the immediately invoked function expression. That function takes different arguments depending on the environment. The passed argument is the following function if the code is used as a CommonJS module:
 
-```
+```JavaScript
 function (factory) {
     module.exports = factory();
 } 
@@ -524,7 +524,7 @@ The main idea of this format lies in using of [labels](https://developer.mozilla
 
 As always let’s rework our example to show this format in action.
 
-```
+```JavaScript
 // file greeting.js
 var helloInLang = {
     en: 'Hello world!',
@@ -556,7 +556,7 @@ The teams of Yandex.Maps and BEM had created the specification for the new modul
 
 Here is the implementation of our example using [YModules](https://github.com/ymaps/modules):
 
-```
+```JavaScript
 // file greeting.js
 modules.define('greeting', function(provide) {
     provide({
@@ -583,7 +583,7 @@ YModules by its structure heavily resembles AMD, but it’s main difference of Y
 
 This feature allows you to do `provide` from the blocks of an asynchronous code, that is it allows to hide the asynchronous nature of the module from the outside world. For example if we will add into our greeting.js some asynchronous logic (e.g. `setTimeout`) then the whole code using this module will remain untouched:
 
-```
+```JavaScript
 // file greeting.js
 modules.define('greeting', function(provide) {
     // postpone of code execution for 1 second
@@ -611,7 +611,7 @@ modules.require(['greeting'], function(greeting) {
 
 As it was said earlier, the main trait of YModules is the possibility of its using with levels of definitions of BEM. Let’s check out how we can to use this feature.
 
-```
+```JavaScript
 // file moduleOnLevel1.js
 modules.define('greeting', function(provide) {
     provide({
@@ -655,7 +655,7 @@ The work on the modular system [started](http://wiki.ecmascript.org/doku.php?id=
 
 By tradition, let's adapt our example to show the specification in action:
 
-```
+```JavaScript
 // file lib/greeting.js
 const helloInLang = {
     en: 'Hello world!',
