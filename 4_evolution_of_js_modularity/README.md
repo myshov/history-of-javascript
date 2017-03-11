@@ -10,26 +10,26 @@ In this article, which is a result of communication with members of TC39, the de
 
 ## Table of Contents
 
-1. Table of Contents
-2. Defining the Used Terms
-3. A Little More About Problems
-    - The Name Collision
-    - The Support for Large Codebases
-4. Directly Defined Dependencies (1999)
-5. The Namespace Pattern (2002)
-6. The Module Pattern (2003)
-7. Template Defined Dependencies (2006)
-8. Comment Defined Dependencies (2006)
-9. Externally Defined Dependencies (2007)
-10. The Sandbox Pattern (2009)
-11. Dependency Injection (2009)
-12. CommonJS Modules (2009)
-13. AMD (2009)
-14. UMD (2011)
-15. Labeled Modules (2012)
-16. YModules (2013)
-17. ES2015 Modules (2015)
-18. Conclusion
+1. [Table of Contents](#table-of-contents)
+2. [Defining the Used Terms](#defining-the-used-terms)
+3. [A Little More About Problems](#a-little-more-about-problems)
+    - [The Name Collision](#the-name-collision)
+    - [The Support for Large Codebases](#the-support-for-large-codebases)
+4. [Directly Defined Dependencies (1999)](#directly-defined-dependencies-1999)
+5. [The Namespace Pattern (2002)](#the-namespace-pattern-2002)
+6. [The Module Pattern (2003)](#the-module-pattern-2003)
+7. [Template Defined Dependencies (2006)](#template-defined-dependencies-2006)
+8. [Comment Defined Dependencies (2006)](#comment-defined-dependencies-2006)
+9. [Externally Defined Dependencies (2007)](#externally-defined-dependencies-2007)
+10. [The Sandbox Pattern (2009)](#the-sandbox-pattern-2009)
+11. [Dependency Injection (2009)](#dependency-injection-2009)
+12. [CommonJS Modules (2009)](#commonjs-modules-2009)
+13. [AMD (2009)](#amd-2009)
+14. [UMD (2011)](#umd-2011)
+15. [Labeled Modules (2012)](#labeled-modules-2012)
+16. [YModules (2013)](#ymodules-2013)
+17. [ES2015 Modules (2015)](#es2015-modules-2015)
+18. [Conclusion](#conclusion)
 
 ## Defining the Used Terms
 
