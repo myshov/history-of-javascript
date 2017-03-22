@@ -7,8 +7,8 @@ Official site of CommonJS [here](http://www.commonjs.org/)
 To run this example clone this repository and execute `node hello.js`.
 
 ```bash
-$ git clone https://github.com/myshov/evolution_of_js_modularity.git
-$ cd evolution_of_js_modularity/2_commonjs_2009/
+$ git clone https://github.com/myshov/history-of-javascript.git
+$ cd history-of-javascript/4_evolution_of_js_modularity/j_commonjs_2009/
 $ node hello.js
 ```
 

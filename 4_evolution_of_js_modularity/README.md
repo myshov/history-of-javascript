@@ -176,7 +176,7 @@ Also there is a good article [JavaScript Module Pattern: In-Depth](http://www.ad
 
 ## Template Defined Dependencies (2006)
 
-Template defined dependencies is the next pattern in the family of the detached dependency definitions. I was able to find the earliest use of this approach in library [Prototype 1.4](https://github.com/myshov/history_of_javascript/blob/master/old_libs/prototype-1.4.0/src/prototype.js) (2006). But I have a suspicion that this approach was used in the earlier versions of the library also. (If you have access to the earlier versions of prototype let me know).
+Template defined dependencies is the next pattern in the family of the detached dependency definitions. I was able to find the earliest use of this approach in library [Prototype 1.4](https://github.com/myshov/history-of-javascript/blob/master/old_libs/prototype-1.4.0/src/prototype.js) (2006). But I have a suspicion that this approach was used in the earlier versions of the library also. (If you have access to the earlier versions of prototype let me know).
 
 The development of Prototype started in 2005 by [Sam Stephenson](https://github.com/sstephenson). Prototype was the integral part of Ruby on Rails at that time. Because Sam worked a lot with ruby it is not surprising that for the management of the dependencies he had chosen simple erb templates.
 
@@ -544,7 +544,7 @@ var phrase = greeting.sayHello('es');
 document.write(phrase);
 ```
 
-The example of the config for building of application using Labeled Modules you can take [here](https://github.com/myshov/history_of_javascript/blob/master/4_evolution_of_js_modularity/m_labeled_modules_2012/webpack.config.js).
+The example of the config for building of application using Labeled Modules you can take [here](https://github.com/myshov/history-of-javascript/blob/master/4_evolution_of_js_modularity/m_labeled_modules_2012/webpack.config.js).
 
 As we can see, it was a really elegant solution. But due to the fact that in 2012 CommonJS and AMD were a really popular choice for the most developers, the new format couldn't overcome that tough competition. Even though the support of this format [had appeared](https://webpack.github.io/docs/api-in-modules.html) in the first version of webpack, this format had not got a lot of attention in JavaScript community nonetheless.
 

@@ -5,8 +5,8 @@
 To run this example clone this repository and open `index.html` in your browser.
 
 ```bash
-$ git clone https://github.com/myshov/evolution_of_js_modularity.git
-$ cd evolution_of_js_modularity/1_namespace_pattern_2002
+$ git clone https://github.com/myshov/history-of-javascript.git
+$ cd history-of-javascript/4_evolution_of_js_modularity/c_namespace_pattern_2002
 $ open index.html
 ```
 

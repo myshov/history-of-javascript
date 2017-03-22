@@ -7,8 +7,8 @@ Specification [here](https://github.com/sebmarkbage/labeled-modules-spec/wiki)
 To run this example clone this repository and open `index.html` in your browser.
 
 ```bash
-$ git clone https://github.com/myshov/history_of_javascript.git
-$ cd history_of_javascript/4_evolution_of_js_modularity/m_labeled_modules_2012/
+$ git clone https://github.com/myshov/history-of-javascript.git
+$ cd history-of-javascript/4_evolution_of_js_modularity/m_labeled_modules_2012/
 $ open index.html
 ```
 

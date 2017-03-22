@@ -11,7 +11,7 @@ Nevertheless, current plan is a series of this articles:
 1. Early Years of JavaScript (empty)
 2. Short History of UI Toolkits (empty)
 3. Rise of MVC (empty)
-4. [Evolution of JS Modularity](https://github.com/myshov/history_of_javascript/tree/master/4_evolution_of_js_modularity)
+4. [Evolution of JS Modularity](https://github.com/myshov/history-of-javascript/tree/master/4_evolution_of_js_modularity)
 5. Bundlers as They Are (empty)
 6. Let's Transpile It (empty)
 7. Functional JavaScript (empty)

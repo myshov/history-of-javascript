@@ -7,8 +7,8 @@ Specification [here](http://www.ecma-international.org/ecma-262/6.0/#sec-modules
 To run this example clone this repository and open `index.html` in your browser.
 
 ```bash
-$ git clone https://github.com/myshov/history_of_javascript.git
-$ cd history_of_javascript/4_evolution_of_js_modularity/o_ES2015_modules_2015/
+$ git clone https://github.com/myshov/history-of-javascript.git
+$ cd history-of-javascript/4_evolution_of_js_modularity/o_ES2015_modules_2015/
 $ open index.html
 ```
 
