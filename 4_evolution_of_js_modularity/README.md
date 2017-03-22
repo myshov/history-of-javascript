@@ -1,6 +1,6 @@
 # The Evolution of JavaScript Modularity
 
-When [Brendan Eich](https://github.com/BrendanEich) was designing the first version of JavaScript, he probably had no idea how his project will evolve during the last twenty years. At the moment already there are six major releases of specification of the language and work on its improvement still continues.
+When [Brendan Eich](https://github.com/BrendanEich) was designing the first version of JavaScript, he probably had no idea how his project will evolve during the last twenty years. At the moment there are already six major releases of specification of the language and work on its improvement still continues.
 
 Let's be honest, JavaScript has never been the perfect programming language. One of the weaknesses of JS was modularity, to put it more clear, its absence. Indeed why do you need to care about isolation of the code and dependencies, when you use scripting language only for animations of the falling snowflakes on the page or for the form validation, when everything can live and interact in the same global scope?
 
