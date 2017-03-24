@@ -20,7 +20,7 @@ Let's figure out the history of an emerging one of the most prevalent technologi
 
 P.S. As I am not native English speaker you can find some grammatical or other issues don't hesitate to help me out and do pull request with fixes ;)
 
-## Licencse
+## License
 
 Every article are under CC-BY-NC 4.0 license, to share this knowledge with many people as possible.
 
