@@ -2,7 +2,7 @@
 
 About a year ago I had prepared talk about Modularity In JS. Then after some time I had decided to write article on this topic. It was a really fun process. To do the article more legit I contacted with stellar people from JS community and TC39 on twitter. In the process of research of JS modularity I figured out other facts about history of JS, that can be interesting to someone else.
 
-Anyway the knowing of history of anything can give us a lot in the perpective and it's always interesting to know what persons are stand behind the particular technology. So I've decided to write a series of independent articles about JavaScript history. And who knows maybe in the future it will become a book. Anyway for me persanally it's fun to figure out some facts and to learn something new about technology that I use everyday.
+Anyway the knowing of history of anything can give us a lot in the perspective and it's always interesting to know what persons are stand behind the particular technology. So I've decided to write a series of independent articles about JavaScript history. And who knows maybe in the future it will become a book. Anyway for me personally it's fun to figure out some facts and to learn something new about technology that I use everyday.
 
 There is only one article at this moment ;). Because I write in my spare time and this process is not so fast as I would wanted.
 
@@ -22,6 +22,6 @@ P.S. As I am not native English speaker you can find some grammatical or other i
 
 ## Licencse
 
-Every article are under CC-BY-NC 4.0 license, to share this knowledge with many peope as possible.
+Every article are under CC-BY-NC 4.0 license, to share this knowledge with many people as possible.
 
 Every code example under MIT license.
