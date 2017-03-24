@@ -677,9 +677,9 @@ document.write(phrase);
 
 As we can see the standard introduces the brand new keywords for importing of modules using the keyword `import` and exporting of the code using the keyword `export`.
 
-Due to the fact that we are dealing with [new keywords in the language](https://hacks.mozilla.org/2015/08/es6-in-depth-modules/), we can't just pick up and start using the new native module system. You must wait for the proper support in the browsers, but at the moment (march 2017) there is no some JavaScript engine with a stable implementation of the module specification yet.
+Due to the fact that we are dealing with [new keywords in the language](https://hacks.mozilla.org/2015/08/es6-in-depth-modules/), and also because the Module Loader API specification, which is responsible for supporting loading modules in various environments, is not yet ready, we can't just pick up and start using the new native module system. 
 
-In spite of this limitation a lot of projects have started to use the new format of the modules. To start use the new standard in a world where ES5 is most common, you can use the [Babel](https://github.com/babel/babel) transpilation, which is a fairly common practice.
+In spite of this limitations a lot of projects have started to use the new format of the modules. To start use the new standard in a world where ES5 is most common, you can use the [Babel](https://github.com/babel/babel) transpilation, which is a fairly common practice.
 
 ## Conclusion
 
