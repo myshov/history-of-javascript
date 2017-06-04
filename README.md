@@ -15,6 +15,7 @@ Nevertheless, current plan is a series of this articles:
 5. Bundlers as They Are (empty)
 6. Let's Transpile It (empty)
 7. Functional JavaScript (empty)
+8. Asynchronous JS: Fight with Complexity (work in progress)
 
 Let's figure out the history of an emerging one of the most prevalent technologies to date.
 
