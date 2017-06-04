@@ -19,14 +19,11 @@ function getDataPromise(url) {
 
 var query = 'iPhone';
 
-co(searchModelWithGenerator(query))
-    .then(printShops);
-
-function* searchModelWithGenerator(modelName) {
-    var modelId = yield getModelId(modelName);
+co(function* searchModelWithGenerator() {
+    var modelId = yield getModelId(query);
     var shops = yield getShops(modelId);
     return shops;
-}
+}).then(printShops);
 
 function getModelId (modelName) {
     return getDataPromise('/search?name=' + modelName);
