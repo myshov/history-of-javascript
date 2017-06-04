@@ -34,7 +34,6 @@ function getShops(modelId) {
 }
 
 function printShops(shops) {
-    console.log(shops)
     shops.forEach(function (shopName) {
         console.log(query + ' есть в магазине ' + shopName);
     });
