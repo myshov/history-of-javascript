@@ -1,0 +1,14 @@
+{
+  "name": "e_observables_2010",
+  "version": "1.0.0",
+  "description": "(work in progress)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexander Myshov <simplex.light@gmail.com> (http://myshov.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "rxjs": "^5.4.0"
+  }
+}
