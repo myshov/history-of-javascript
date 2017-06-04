@@ -64,3 +64,15 @@ function printShops(shops) {
         console.log(query + ' есть в магазине ' + shopName);
     });
 }
+
+/**
+ * jQuery v1.8 way
+ */
+
+/*
+function searchModelWithPipe(modelName) {
+    getModelId(modelName)
+        .then(getShops)
+        .then(printShops);
+}
+*/
