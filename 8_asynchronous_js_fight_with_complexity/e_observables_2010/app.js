@@ -22,8 +22,7 @@ searchModelWithObservables('iPhone');
 function searchModelWithObservables(modelName) {
     getModelId(modelName)
         .flatMap(getShops)
-        .map(printShops)
-        .subscribe();
+        .subscribe(printShops);
 }
 
 function getModelId (modelName) {
