@@ -1,0 +1,14 @@
+{
+  "name": "f_csp_2013",
+  "version": "1.0.0",
+  "description": "(work in progress)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexander Myshov <simplex.light@gmail.com> (http://myshov.com)",
+  "license": "ISC",
+  "dependencies": {
+    "js-csp": "^0.9.3"
+  }
+}
