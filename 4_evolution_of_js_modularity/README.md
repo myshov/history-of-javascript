@@ -651,7 +651,7 @@ At the moment YModules is used in the various projects in Yandex. Also it's a ma
 
 Of course the Committee TC39 was watching what was happening in JavaScript world. It was obvious that the time has come for major changes in the language.
 
-The work on the modular system [started](http://wiki.ecmascript.org/doku.php?id=harmony:modules&rev=1300916920) in 2010. The main developer of this specification was [Dave Herman](https://github.com/dherman) the Director for strategic development at Mozilla. The work continued in the period of five years. During this time David managed to be in the role of architect, lead developer and developer in projects like asm.js, emscripten, servo and other ones. The final version of the native [module specification](http://www.ecma-international.org/ecma-262/6.0/#sec-modules) has been released with specification ES2015.
+The work on the modular system [started](http://wiki.ecmascript.org/doku.php?id=harmony:modules&rev=1300916920) in 2010. The design of this system was created by [Dave Herman](https://github.com/dherman) and [Sam Tobin-Hochstadt](https://github.com/samth/). The work continued in the period of five years. The final design of the [module system](http://www.ecma-international.org/ecma-262/6.0/#sec-modules) has been released with specification ES2015.
 
 By tradition, let's adapt our example to show the specification in action:
 
